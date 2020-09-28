@@ -11,6 +11,7 @@ module.exports = {
       }
     }
   },
-  variants: {},
-  plugins: []
+  variants: {
+    letterSpacing: ["responsive", "hover", "focus"]
+  }
 };
