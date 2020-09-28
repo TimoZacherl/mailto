@@ -7,7 +7,7 @@ module.exports = {
 
     process.env.NODE_ENV === "production"
       ? purgecss({
-          content: ["./src/**/*.html", "./src/**/*.vue"]
+          content: ["./public/**/*.html", "./src/**/*.vue"]
         })
       : ""
   ]
