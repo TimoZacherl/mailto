@@ -1,11 +1,5 @@
 const purgecss = require("@fullhuman/postcss-purgecss");
 
-class TailwindExtractor {
-  static extract(content) {
-    return content.match(/[A-z0-9-:/]+/g);
-  }
-}
-
 module.exports = {
   plugins: [
     require("tailwindcss"),
@@ -16,11 +10,15 @@ module.exports = {
           content: ["./public/**/*.html", "./src/**/*.vue"],
           extractors: [
             {
-              extractor: new TailwindExtractor(),
+              extractor: class TailwindExtractor {
+                static extract(content) {
+                  // eslint-disable-next-line no-useless-escape
+                  return content.match(/[A-z0-9-:\/]+/g) || [];
+                }
+              },
               extensions: ["vue"]
             }
-          ],
-          whitelist: ["html", "body"]
+          ]
         })
       : ""
   ]
