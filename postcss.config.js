@@ -16,7 +16,7 @@ module.exports = {
           content: ["./public/**/*.html", "./src/**/*.vue"],
           extractors: [
             {
-              extractor: TailwindExtractor,
+              extractor: new TailwindExtractor(),
               extensions: ["vue"]
             }
           ],
