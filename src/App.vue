@@ -21,7 +21,7 @@
             </div>
             <div class="flex items-center justify-end space-x-8 flex-1 lg:w-0">
               <a
-                class="whitespace-no-wrap text-base leading-6 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 dark-mode:hover:text-white"
+                class="whitespace-no-wrap text-sm sm:text-base leading-6 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 dark-mode:hover:text-white"
                 href="http://buymeacoffee.com/timox"
                 hreflang="en-US"
                 title="Buy me a Coffee"
@@ -94,7 +94,7 @@
                 Buy me a Coffee
               </a>
               <a
-                class="whitespace-no-wrap text-base leading-6 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 dark-mode:hover:text-white"
+                class="whitespace-no-wrap text-sm sm:text-base leading-6 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 dark-mode:hover:text-white"
                 href="https://twitter.com/timoxdev"
                 hreflang="en-US"
                 title="My Twitter Profile"
@@ -108,7 +108,7 @@
               </a>
               <span class="inline-flex rounded-md shadow-sm">
                 <a
-                  class="whitespace-no-wrap inline-flex items-center justify-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700 transition ease-in-out duration-150"
+                  class="whitespace-no-wrap inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm sm:text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700 transition ease-in-out duration-150"
                   href="https://github.com/TimoZacherl/mailto"
                   hreflang="en-US"
                   title="GitHub Repository"
